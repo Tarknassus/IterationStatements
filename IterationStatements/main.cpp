@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    int n = 10;
+    // While loop
+    while (n>0){
+        cout << n << ", ";
+        --n;
+    }
+    
+    // For loop
+    
+    cout << "liftoff!\n";
 }
