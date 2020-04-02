@@ -7,6 +7,8 @@
 //
 
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -29,5 +31,13 @@ int main(int argc, const char * argv[]) {
     }
     
     cout << "liftoff again!\n";
+    
+    // Range based loop
+    string str { "Hello!"};
+    for (char c : str)
+    {
+        cout << "[" << c << "]";
+    }
+    cout << "\n";
     
 }
